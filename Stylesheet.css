@@ -1,0 +1,261 @@
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Lucida Grande";
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* memberi warna dan mengatur header */
+header {
+    height: 65px;
+    width: 100%;
+    background: rgba(13, 0, 34, 0.902);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-right {
+    float: right;
+}
+
+.header-left a {
+    line-height: 80px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+}
+
+.header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+}
+
+.header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.header-list li {
+    float: left;
+    padding: 33px 20px;
+    color: white;
+}
+
+.header-list li {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+}
+
+/* efek efek gitu*/
+.header-list li:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* memberi dan mengatur background */
+.top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: url(https://miro.medium.com/max/1200/1*kGPF42Ioy9m2XpjO4-q_7A.jpeg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.top-wrapper h1 {
+    opacity: overlay;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.top-wrapper p {
+    opacity: 0.8;
+    margin-top: 3px;
+    text-align: center;
+}
+
+/* membuat button */
+.btn {
+    color: white;
+    padding: 12px 24px;
+    opacity: 0.8;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.signup {
+    background-color: #239B76;
+}
+
+.facebook {
+    background-color: #3b5998;
+    margin-right: 5px;
+}
+
+.twitter {
+    background-color: #55acee;
+}
+
+.btn p {
+    margin: 10px 0;
+}
+
+.btn-wrapper {
+    margin: 23px 0;
+}
+
+.btn-wrapper p {
+    margin: 10px 10px;
+}
+
+/* membuat konten */
+.heading {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    color: #5f5d60;
+}
+
+.heading h2 {
+    font-weight: normal;
+}
+
+.lesson-wrapper {
+    height: 500px;
+    padding-bottom: 80px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.lesson-icon {
+    position: relative;
+}
+
+.lesson {
+    float: left;
+    width: 33.33%;
+    margin-top: 30px;
+}
+
+.lesson-icon p {
+    position: absolute;
+    width: 100%;
+    color: #5f5d60;
+    margin-top: 5px;
+}
+
+.txt-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 27px;
+    font-size: 15px;
+    color: #a3a2a3;
+}
+
+.message-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.heading h3 {
+    font-weight: normal;
+}
+
+/* membuat tombol ajakan untuk bergabung */
+.message {
+    padding: 15px 40px;
+    background-color: #5dca88;
+    cursor: pointer;
+    box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+
+/* touch up bagian bawah */
+footer {
+    background-color: rgb(13, 0, 34, 0.902);
+    height: 90px;
+    padding: 30px;
+}
+
+
+.isi {
+    float: left;
+}
+
+.isi img {
+    width: 100px;
+    line-height: 80px;
+    padding: 20px 85px;
+    display: block;
+}
+
+.isi p {
+    color: #a3a2a3;
+    font-size: 15px;
+    margin-bottom: 15px;
+    padding: 0px 85px;
+}
+
+.footer-list {
+    float: right;
+}
+
+.footer-list li {
+    color: white;
+    padding: 8px 75px;
+}
+
+.footer-list a {
+    color: white;
+    display: block;
+}
+
+.footer-list li:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    text-align: center;
+}
